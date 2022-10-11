@@ -119,7 +119,62 @@ my var = "John"
     "Съставни" типове:
         Списъци / List
         Речници / Dict
-        Редици / Set
-        Файлове / File
+        Редици / Tuple
+        Множества / Set
     
 """
+
+
+
+
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+
+
+
+
+
+# Присвояване на няколко променливи наведнъж
+x,y,z = 3,5,7
+print(y) # 5
+
+x = y = z = 3
+
+
+
+# размяна на стойността на две променливи
+a = "a"
+b = "b"
+
+#начин 1:
+c = a
+a = b
+b = c
+
+#начин 2:
+a,b = b,a
+
+
+
+
+
+#  <======== Оператори за вход и изход ========>
+
+x = input("Enter a number\n") #input operator
+print(x)
+ 
+x = input("enter anything")  # x=5
+print(type(x))               # str
+
+x = int(input("enter anything")) # x=12
+print(type(x))                   # int
+
+
+
+
