@@ -1,4 +1,7 @@
 # Седмица 3 - if/else, while/for
+[Код от упражнение за if/elif/else](https://github.com/Kaisiq/UP-Students/blob/main/week3/bool_if_else_code.py)
+[Код от упражнение за for/while цикли](https://github.com/Kaisiq/UP-Students/blob/main/week3/for_while_loops_code.py)
+
 
 ## Задачи върху условните оператори if/else
 
