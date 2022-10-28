@@ -17,17 +17,6 @@ z = str(3.0)  # z ще стане '3.0'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 # <=========== String-ове ===========> 
 
 """
@@ -80,16 +69,7 @@ y = "String"
 print(x , y)
 
 y = "3"
-# print(x + y)
 #print(x + y) няма автоматично да смени типа на Y на int и да ги събере, тоест ще има грешка
-
-
-
-
-
-
-
-
 
 
 # Представяне на string като редица от символи
@@ -103,11 +83,6 @@ s = "Hello"
 
 print(s[0]) # H
 print(s[1] + s[3]) # ?
-
-
-
-
-
 
 
 # Дължина на дума
@@ -133,20 +108,6 @@ print(s[2:])
 print(s[-5:-2])  # Обратна индексация - "-5" означава 5тият символ отзад напред
 
 
-# чрез обратната индексация можем да reverse-нем string
-str = "Hello world!"
-reversed = str[::-1]
-print(reversed)
-
-
-# използвайки стъпка можем да принтираме всеки n-ти символ от string
-str = "Hello world!"
-print(str[::2]) # принтира от началото до края на стринг-а, но само всеки втори символ
-
-
-
-
-
 
 # Промени по един string
 s = "Hello world!"
@@ -168,11 +129,7 @@ s = "Hello world!"
 print(s.split(" "))  # ['Hello', 'world!']
 print(s.split("l"))  # ['He', '', 'o wor', 'd!']
 
-
-
-
-
-# добавяне на кавички в string 
+# добавяне на кавички в string
 s = "Liubimiqt mi serial e \"Alice in Borderland\"!"
 
 """
@@ -184,16 +141,43 @@ s = "Liubimiqt mi serial e \"Alice in Borderland\"!"
  Има и други, но това са основните които ще ползвате
 """
 
-
-
-
-
-
 # форматиране на string
 name = "Vili"
 age = 21
 print(f"I am {name}, {age} years old.")        # f форматира текста, използвайки горните променливи и ги замества
 print("I am" , name, ",", age, "years old.")   # е подобно на горното, но имайте впредвид екстра whitespace-а, който се добавя заради ","
+
+
+
+# Split-ване на string
+txt = "hello, my name is Dani. I am 21 years old"
+x = txt.split() #any whitespace
+print(x)
+
+txt = "hello, my name is Daniel, I am 21 years old"
+x = txt.split(", ")
+print(x)
+
+txt = "apple#banana#cherry#orange"
+x = txt.split("#")
+print(x)
+
+
+
+
+
+
+# .join()
+myList = ["apple", "banana", "mango"]
+txt = " ".join(myList)
+print(txt)
+
+txt = "DANI".join(myList)
+print(txt)
+
+separator = ".I love "
+txt = separator.join(myList)
+print(txt)
  
 
 
