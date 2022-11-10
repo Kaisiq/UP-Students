@@ -7,3 +7,4 @@
 ### [Седмица 3 - условни оператори, if, elif, else, цикли - for и while](https://github.com/Kaisiq/UP-Students/tree/main/week3)
 ### [Седмица 4 - Съставни типове данни: List, Tuple](https://github.com/Kaisiq/UP-Students/tree/main/week4)
 ### [Седмица 5 - Съставни типове данни: Set, Dictionary](https://github.com/Kaisiq/UP-Students/tree/main/week5)
+### [Седмица 6 - Функции, Рекурсия](https://github.com/Kaisiq/UP-Students/tree/main/week6)
