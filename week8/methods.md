@@ -82,3 +82,62 @@ product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
 
 # Output: 24
 ```
+
+
+## Zip и Unzip
+
+### Zip
+zip() е полезен метод, който ни позволява да обединяваме листове лесно.<br>
+Пример:
+```py
+first_name = ['Joe','Earnst','Thomas','Martin','Charles']
+
+last_name = ['Schmoe','Ehlmann','Fischer','Walter','Rogan','Green']
+
+age = [23, 65, 11, 36, 83]
+
+print(list(zip(first_name,last_name, age)))
+
+# Output
+#
+# [('Joe', 'Schmoe', 23), ('Earnst', 'Ehlmann', 65), ('Thomas', 'Fischer', 11), ('Martin', 'Walter', 36), ('Charles', 'Rogan', 83)]
+```
+
+Плюсът на zip() е, че е много по-четим от еквивалента му с for цикли.<br>
+Например, вместо да ни трябват няколко входни листа, се нуждаем само от един zip-нат лист от всички данни и да използваме един for цикъл:
+```py
+first_name = ['Joe','Earnst','Thomas','Martin','Charles']
+last_name = ['Schmoe','Ehlmann','Fischer','Walter','Rogan','Green']
+age = [23, 65, 11, 36, 83]
+
+for first_name, last_name, age in zip(first_name, last_name, age):
+    print(f"{first_name} {last_name} is {age} years old")
+
+# Output
+#
+# Joe Schmoe is 23 years old
+# Earnst Ehlmann is 65 years old
+# Thomas Fischer is 11 years old
+# Martin Walter is 36 years old
+# Charles Rogan is 83 years old
+```
+
+### Unzip
+Както за zip-ване, можем да използваме метода zip() и за unzip-ване на файлове. За целта обаче ще трябва да сложим "*" пред името на параметъра, за да обозначим, че очакваме вход от потребителя лист от елементи(в случая редици).<br>
+Изходът е отделните елементи в лист-а, който сме подали като вход.
+```py
+full_name_list = [('Joe', 'Schmoe', 23),
+                  ('Earnst', 'Ehlmann', 65),
+                  ('Thomas', 'Fischer', 11),
+                  ('Martin', 'Walter', 36),
+                  ('Charles', 'Rogan', 83)]
+
+first_name, last_name, age = list(zip(*full_name_list))
+print(f"first name: {first_name}\nlast name: {last_name} \nage: {age}")
+
+# Output
+
+# first name: ('Joe', 'Earnst', 'Thomas', 'Martin', 'Charles')
+# last name: ('Schmoe', 'Ehlmann', 'Fischer', 'Walter', 'Rogan')
+# age: (23, 65, 11, 36, 83)
+```
