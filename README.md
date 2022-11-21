@@ -9,3 +9,4 @@
 ### [Седмица 5 - Съставни типове данни: Set, Dictionary](https://github.com/Kaisiq/UP-Students/tree/main/week5)
 ### [Седмица 6 - Функции](https://github.com/Kaisiq/UP-Students/tree/main/week6)
 ### [Седмица 7 - Функции, Ламбда изрази, Рекурсия](https://github.com/Kaisiq/UP-Students/tree/main/week7)
+### [Седмица 8 - map, filter, reduce, zip & unzip, Бонус задачи по материала за функции и рекрусия](https://github.com/Kaisiq/UP-Students/tree/main/week8)
