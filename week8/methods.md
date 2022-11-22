@@ -20,6 +20,7 @@ for i in items:
 
 <br>
 map() методът ни помага да имплементираме този код по по-лесен и кратък начин:
+
 ```py
 items = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, items))
