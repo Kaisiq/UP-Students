@@ -5,5 +5,5 @@
 ### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week3/conditions_tasks.md)<br>
 
 ## Цикли - for, while
-### [Код от упражнение за for/while цикли](https://github.com/Kaisiq/UP-Students/blob/main/week3/for_while_loops_code.py) <br>
+### [Код от упражнение за for/while цикли](https://github.com/Kaisiq/UP-Students/blob/main/week3/loops.md) <br>
 ### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week3/loops_tasks.md)<br>
