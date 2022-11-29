@@ -6,7 +6,7 @@
 Генерирайте първите N члена (в редици) на следните редици:
 - 0, 3, 6, 9, 12... (An = n*3)
 - 1, 1, 2, 3, 5... (Bn = Bn-1 + Bn-2)
-- 2, 3, 6, 18, 108... (Cn = Cn-1 * Cn-2)
+- 2, 3, 6, 18, 108... (Cn = Cn-1 * Cn-2) <br>
 Слейте трите резултатни редици в една, като събирате елементите на съответните позиции.
 
 ## Задача 2
@@ -20,7 +20,7 @@
 
 ## Задача 3
 Напишете функция, която приема като параметър символен низ. Да се изведе колко пъти се среща всеки символ в низа. Ако някой символ се среща повече от веднъж, да не се принтира повторно колко пъти се среща.<br>
-Вход: "obicham da karam kolelo"
+Вход: "obicham da karam kolelo" <br>
 Изход: 
 ```
 o -> 3
@@ -57,7 +57,7 @@ e -> 1
 ## Допълнителна задача
 
 A jail has a number of prisoners and a number of treats to pass out to them. Their jailer decides the fairest way to divide the treats is to seat the prisoners around a circular table in sequentially numbered chairs. A chair number will be drawn from a hat. Beginning with the prisoner in that chair, one candy will be handed to each prisoner sequentially around the table until all have been distributed.
-
+<br>
 The jailer is playing a little joke, though. The last piece of candy looks like all the others, but it tastes awful. Determine the chair number occupied by the prisoner who will receive that candy.<br>
 Example:
 ```
