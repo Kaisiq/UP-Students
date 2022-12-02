@@ -4,3 +4,4 @@
 
 
 ### [Обектно Ориентирано Програмиране(ООП) - Материали](https://github.com/Kaisiq/UP-Students/blob/main/week9/OOP_introduction.md)
+### [Обектно Ориентирано Програмиране(ООП) - Задачи](https://github.com/Kaisiq/UP-Students/blob/main/week9/tasks.md)
