@@ -41,12 +41,18 @@ e -> 1
 
 
 ## Задача 4
+
+#### [Решения](https://github.com/Kaisiq/UP-Students/blob/main/week9/test_prep_solution.py)
+
 Напишете функция, която сумира елементите на вложен списък.<br>
 Пример:<br>
 Вход: [1,2,[3,4],[[5],6]]<br>
 Изход: 21
 
 ## Задача 5
+
+#### [Решения](https://github.com/Kaisiq/UP-Students/blob/main/week9/test_prep_solution.py)
+
 Напишете функция, която намира най-големия общ делител на две цели числа.
 
 
