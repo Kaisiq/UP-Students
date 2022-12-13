@@ -31,7 +31,7 @@ print(p1)
         self.age = age
         self.__bank_account_id = bank_account_id
         self.__new_bank_id = None
-    
+
     def set_new_bank_id(self, new_bank_id):
         self.__new_bank_id = new_bank_id
         return "ID is changed."
@@ -47,8 +47,9 @@ print(p1)
 
 p1 = Person("Amy", 23, 12345)
 print(p1)
-print(p1.get_bank_account_id())
-print(p1.set_new_bank_id())
+print(p1.get_bank_account_id()) # 12345
+print(p1.set_new_bank_id(3456))
+print(p1.get_bank_account_id()) # 3456
 ```
 
 ## 3. Наследяване (Inheritance)
