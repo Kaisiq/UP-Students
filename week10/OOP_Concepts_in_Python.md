@@ -57,7 +57,7 @@ print(p1.get_bank_account_id()) # 3456
 * Този клас, който е наследник на друг клас, се нарича subclass или child class, а класа, от който се наследява - superclass или parent class.
 
 ### Пример
-Нека създадем нов клас `BankAsisstant(Person)`, който освен клиент на банката е и нейн служител.
+Нека създадем нов клас `BankAsisstant(Person)`, чиито обекти освен клиенти на банката са и нейни служители.
 
 ```py
 class Person:
