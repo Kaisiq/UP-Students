@@ -13,23 +13,23 @@
 - празен блок.
 
 ```py
-myfunction(x, y): # липса на ключова дума
+myfunction(x, y): 
     return x + y
 
-# липса на блок от команди
+
 else:
     print("Hello!")
 
-if mark >= 50 # липса на знак
+if mark >= 50 
     print("You passed!")
 
 if arriving:
     print("Hi!")
-esle: # грешно изписване на команда
+esle: 
     print("Bye!")
 
 if flag:
-print("Flag is set!") # липса на отстъп
+print("Flag is set!") 
 ```
 
 ### б) Runtime (грешки по време на изпълнение)
@@ -71,7 +71,7 @@ for i in range(0, len(alist) + 1):  # IndexError: list index out of range
 sum_squares = 0
 for i in range(10):
     i_sq = i ** 2
-sum_squares += i_sq  # грешен отстъп; извън цикъла тази променлива не е дефинирана
+sum_squares += i_sq
 
 # Кое от тези две решения ще даде търсения от нас
 # резултат на сбора от всички квадрати на числата от 1 до 10?
@@ -81,11 +81,11 @@ sum_squares = 0
 i_sq = 0
 for i in range(10):
     i_sq = i ** 2
-sum_squares += i_sq # след всички итерации sum_squares = 20
+sum_squares += i_sq 
 
 # Решение 2:
 sum_squares = 0
 for i in range(10):
     i_sq = i ** 2
-    sum_squares += i_sq # sum_squares = 385 - вярно
+    sum_squares += i_sq 
 ```
