@@ -89,3 +89,106 @@ for i in range(10):
     i_sq = i ** 2
     sum_squares += i_sq 
 ```
+## 2. Обработване на грешки
+* Всички грешки по време на изпълнение (и синтаксис), на които сме се натъкнали, се наричат изключения (Exceptions)
+* Всички изключения са подкласове на класа Exception
+* Предимства при използването на този стил на обработка на грешки:
+-- по-ефективен от блок от команди, при който се проверява за грешки (този блок от команди понякога може да е доста комплексен)
+-- ясно очертава кой код ще се обработва за грешки и кой не
+
+### a) try-except statement:
+
+#### Пример 1:
+```py
+try:  # в този блок от команди се въвежда целия код, за който изпитваме съмнение, че ще ни върне грешка
+    age = int(input("Please enter your age: "))
+    print(f"I see that you are {age} years old.")
+except ValueError:
+    # при сриване на програмата заради грешка от тип ValueError програмата връща
+    # "елегантно" съобщение, създадено от нас. При неправилен избор на типа грешка
+    # в except блока програмата няма да го изпълни и ще се срине!!!
+    print("Please enter a number!")
+```
+
+#### Пример 2:
+```py
+try:
+    dividend = int(input("Please enter the dividend: "))
+    divisor = int(input("Please enter the divisor: "))
+    print(f"{dividend} / {divisor} = {dividend / divisor}")
+except(ValueError, ZeroDivisionError):  # улавяне на повече от една грешка
+    print("Oops, something went wrong!")
+```
+
+#### Пример 3:
+```py
+try:
+    dividend = int(input("Please enter the dividend: "))
+    divisor = int(input("Please enter the divisor: "))
+    print(f"{dividend} / {divisor} = {dividend / divisor}")
+except ValueError:
+    print("The divisor and dividend have to be numbers!")
+except ZeroDivisionError:
+    print("The dividend may not be zero!")
+```
+
+#### Пример 4 (най-добрия от всички до момента):
+```py
+dividend = 0
+divisor = 0
+try:
+    dividend = int(input("Please enter the dividend: "))
+except ValueError:
+    print("The dividend has to be a number!")
+
+try:
+    divisor = int(input("Please enter the divisor: "))
+except ValueError:
+    print("The divisor has to be a number!")
+
+try:
+    print(f"{dividend} / {divisor} = {dividend / divisor}")
+except ZeroDivisionError:
+    print("The dividend may not be zero!")
+```
+* По-добре е да използваме try-except при обработка на изключения в малки блокове от команди, за да сме прецизни при улавянето на грешки.
+
+#### Интересен начин за улавяне на грешки, при който се изписва на кой ред е самата грешка:
+```py
+import sys
+
+try:
+    dividend = int(input("Please enter the dividend: "))
+    divisor = int(input("Please enter the divisor: "))
+    print(f"{dividend} / {divisor} = {dividend / divisor}")
+except ValueError:
+    print(f"The variable on line {sys.exc_info()[2].tb_lineno} has to be number!")
+except ZeroDivisionError:
+    print("The dividend may not be zero!")
+```
+
+### б) raise Exception
+* raise се използва, ако искаме да хвърлим форматирано от нас изключение
+```py
+x = int(input())
+
+if x < 0:
+    raise Exception("Sorry, no numbers below zero")
+else:
+    print(x)
+```
+
+### в) try-else-finally
+* добра практика, тъй като в блока try е обособен само и единствено реда, който може да предизвика грешка в програмата
+* клаузата finally се изпълнява винаги без значение дали в кода е открита грешка или не, дали е обработена или не
+
+```py
+try:
+    age = int(input("Please enter your age: "))
+except ValueError:
+    print("Hey, that wasn't a number!")
+else:
+    print(f"I see that you are {age} years old.")
+finally:
+    print("It was really nice talking to you. Goodbye!")
+```
