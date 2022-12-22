@@ -192,3 +192,5 @@ else:
 finally:
     print("It was really nice talking to you. Goodbye!")
 ```
+### Видове изключения и описание
+<img width="736" alt="image" src="https://user-images.githubusercontent.com/114401128/209127777-c09dd1a9-71e6-450c-a410-87235d255124.png">
