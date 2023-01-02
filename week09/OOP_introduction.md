@@ -25,7 +25,7 @@ person1 = Person()
 - Извеждане на обект в конзолата
 
 ```py
-print(person1 = Person()) # <__main__.Person object at 0x000001C5939C5BE0>
+print(person1) # <__main__.Person object at 0x000001C5939C5BE0>
 ```
 
 > _**Забележка**_: <br> - Чрез създаването на обекта `person1` от тип `Person` се създава празно хранилище (storage), чието съдържание можете да проверите чрез dunder методa `__dict__`. <br> - ` <__main__.Person object at 0x000001C5939C5BE0>` представлява обекта `person1`, като в него се съдържат името на класа `Person` и адресът на обекта в паметта в шестнадесетична бройна система.
@@ -44,7 +44,7 @@ print(isinstanceof(person1, Person)) # True
 
 ```py
 person1.name = "John"
-print(person.name) # John
+print(person1.name) # John
 ```
 
 > _**Забележка**_: По този начин само към storage-а на обекта `person1` добавяме атрибута `name`. При създаването на следващ обект от тип `Person` (например `person2`) чрез употребата на `__dict__` метода ще установим, че неговият state не притежава атрибута `name`.
