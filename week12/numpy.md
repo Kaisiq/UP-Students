@@ -27,11 +27,11 @@ print(reshaped_arr)  # [[1 2 3][4 5 6][7 8 9]]
 
 * `zeros(shape, dtype, order)` - задава масив от нули
 ```py
-print(np.zeros((1, 2)), "int")  # array([[0, 0]])
+print(np.zeros((1, 2), "int"))  # array([[0, 0]])
 ```
 * `ones(shape, dtype, order)` - задава масив от единици
 ```py
-print(np.ones((1, 2)), "int")  # array([[1, 1]])
+print(np.ones((1, 2), "int"))  # array([[1, 1]])
 ```
 * `arange(start, stop, step)` - създава едномерен масив
 ```py
@@ -157,7 +157,7 @@ print(cond_num_array)  # array([12,  5])
 * `copy` е по-добро от view, ако искаме да не променяме първоначалния масив, който сме копирали
 ```py
 a = np.array([1, 2, 3, 4, 5])
-b = np.copy(a)
+b = a.copy()
 b[0] = 10
 print(a[0], b[0])  # 1, 10
 ```
