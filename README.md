@@ -13,5 +13,5 @@
 ### [Седмица 09 - Подготовка за Контролно №2, ООП](https://github.com/Kaisiq/UP-Students/tree/main/week09)
 ### [Седмица 10 - Обектно-ориентирано Програмиране](https://github.com/Kaisiq/UP-Students/tree/main/week10)
 ### [Седмица 11 - Грешки и Обработване на грешки](https://github.com/Kaisiq/UP-Students/tree/main/week11)
-### Седмица 12 - Библиотеки. Math и Decimal
-### Седмица 13 - NumPy, Pandas
+### [Седмица 12 - Библиотеки. Math и Decimal, Numpy](https://github.com/Kaisiq/UP-Students/tree/main/week12)
+### Седмица 13 - Pandas
