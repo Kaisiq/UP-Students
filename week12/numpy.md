@@ -148,8 +148,10 @@ cond_array = np.where(num_array > 0)
 print(cond_array)  # (array([0, 2], dtype=int64),)
 ```
 * `extract` - извлича елементи, отговарящи на условие
+```py
 cond_num_array = np.extract(num_array > 0, num_array)
 print(cond_num_array)  # array([12,  5])
+```
 
 ### д) `copy` VS `view`
 * `copy` е по-добро от view, ако искаме да не променяме първоначалния масив, който сме копирали
