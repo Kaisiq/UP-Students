@@ -14,4 +14,4 @@
 ### [Седмица 10 - Обектно-ориентирано Програмиране](https://github.com/Kaisiq/UP-Students/tree/main/week10)
 ### [Седмица 11 - Грешки и Обработване на грешки](https://github.com/Kaisiq/UP-Students/tree/main/week11)
 ### [Седмица 12 - Библиотеки. Math и Decimal, Numpy](https://github.com/Kaisiq/UP-Students/tree/main/week12)
-### Седмица 13 - Pandas
+### [Седмица 13 - Библиотеки. Pandas](https://github.com/Kaisiq/UP-Students/tree/main/week13)
