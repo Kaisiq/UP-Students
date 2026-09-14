@@ -1,5 +1,10 @@
 # Допълнително упражнение - Задачи
 
+## Примерни решения
+
+- [Задача 1](https://github.com/Kaisiq/UP-Students/blob/main/week09/bonus_prep/1.md)
+- [Задача 2](https://github.com/Kaisiq/UP-Students/blob/main/week09/bonus_prep/2.md)
+
 ## Задача 1
 Създайте функция generate_username(first_name: str, last_name: str, email: str) -> str
 <br>

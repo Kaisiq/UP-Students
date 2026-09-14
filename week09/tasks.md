@@ -2,7 +2,7 @@
 
 ## Задача 1
 
-#### [Решение](https://github.com/Kaisiq/UP-Students/blob/main/week9/solution.py)
+#### [Решение](https://github.com/Kaisiq/UP-Students/blob/main/week09/solution.md)
 
 Да се дефинира клас *Student* , които представя следните данни за един студент:
 - име (до 30 символа)

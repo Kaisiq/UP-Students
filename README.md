@@ -2,7 +2,7 @@
 
 ## Тук ще намерите материали за курса Увод в Програмирането на специалност Анализ на Данни 2022/2023г.
 
-### [Седмица 01 - Аритметични операции, оператори за вход и изход](https://github.com/Kaisiq/UP-Students/blob/main/week1/week01_code.py)
+### [Седмица 01 - Аритметични операции, оператори за вход и изход](https://github.com/Kaisiq/UP-Students/tree/main/week01)
 ### [Седмица 02 - Аритметични операции върху числа, символни низове](https://github.com/Kaisiq/UP-Students/tree/main/week02)
 ### [Седмица 03 - Условни оператори, Цикли](https://github.com/Kaisiq/UP-Students/tree/main/week03)
 ### [Седмица 04 - Съставни типове данни: List, Tuple](https://github.com/Kaisiq/UP-Students/tree/main/week04)
@@ -15,3 +15,4 @@
 ### [Седмица 11 - Грешки и Обработване на грешки](https://github.com/Kaisiq/UP-Students/tree/main/week11)
 ### [Седмица 12 - Библиотеки. Math и Decimal, Numpy](https://github.com/Kaisiq/UP-Students/tree/main/week12)
 ### [Седмица 13 - Библиотеки. Pandas](https://github.com/Kaisiq/UP-Students/tree/main/week13)
+### [Седмица 14 - Контролно. Подготовка за изпит](https://github.com/Kaisiq/UP-Students/tree/main/week14)

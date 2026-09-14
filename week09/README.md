@@ -1,12 +1,12 @@
 # Седмица 9 - Подготовка за Контролно №2, ООП
 
 ### [Подготовка за Контролно №2](https://github.com/Kaisiq/UP-Students/blob/main/week09/test_preparation.md)
-#### [Решения на 4,5 задача](https://github.com/Kaisiq/UP-Students/blob/main/week09/test_prep_solution.py)
+#### Решения: [задача 4](https://github.com/Kaisiq/UP-Students/blob/main/week09/bonus_prep/test_prep_4.md) и [задача 5](https://github.com/Kaisiq/UP-Students/blob/main/week09/bonus_prep/test_prep_5.md)
 
 
 ### [Обектно Ориентирано Програмиране(ООП) - Материали](https://github.com/Kaisiq/UP-Students/blob/main/week09/OOP_introduction.md)
 ### [Обектно Ориентирано Програмиране(ООП) - Задачи](https://github.com/Kaisiq/UP-Students/blob/main/week09/tasks.md)
-#### [Решение](https://github.com/Kaisiq/UP-Students/blob/main/week09/solution.py)
+#### [Решение](https://github.com/Kaisiq/UP-Students/blob/main/week09/solution.md)
 
 <br>
 
