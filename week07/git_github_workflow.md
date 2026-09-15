@@ -24,3 +24,8 @@ cd <име-на-папка>
 ```
 
 Използвайте кратки commits с една цел: `Add input validation`, `Fix CSV parsing`. Не правете commit на `.env`, `.venv/` или пароли.
+
+## Допълнителни ресурси
+
+- [Git Book: работа с remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+- [GitHub Docs: игнориране на файлове](https://docs.github.com/en/get-started/git-basics/ignoring-files)

@@ -25,3 +25,8 @@ def average(numbers):
 Проверете `numbers`, `number` и `total` при всяко преминаване през цикъла. За празен списък `len(numbers)` е `0`, което ще доведе до `ZeroDivisionError`; това е граничен случай, който трябва да решите изрично.
 
 Използвайте `print()` за бърза проверка, но breakpoint и debugger са по-подходящи, когато има много стъпки или извиквания на функции.
+
+## Допълнителни ресурси
+
+- [PyCharm: debugging на Python код](https://www.jetbrains.com/help/pycharm/part-1-debugging-python-code.html)
+- [Python Tutorial: errors and exceptions](https://docs.python.org/3/tutorial/errors.html)

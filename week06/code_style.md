@@ -23,3 +23,8 @@ def rectangle_area(width, height):
 - `docstring` е първият низ във функция или клас и обяснява предназначението им.
 
 Не повтаряйте код. Ако една и съща логика се появи два пъти, вероятно има място за функция.
+
+## Допълнителни ресурси
+
+- [PEP 8: стил за Python код](https://peps.python.org/pep-0008/)
+- [PEP 257: docstrings](https://peps.python.org/pep-0257/)

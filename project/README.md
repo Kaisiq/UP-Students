@@ -24,3 +24,8 @@
 | Качество | Четлив код, функции и обработка на грешки. |
 | Проверка | Тестове и разумни гранични случаи. |
 | Представяне | README, Git история и лесно стартиране. |
+
+## Допълнителни ресурси
+
+- [GitHub Docs: за README файловете](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [GitHub Docs: добри практики за README](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)

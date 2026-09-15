@@ -53,3 +53,8 @@ git push -u origin main
 ## Мини упражнение
 
 Създайте папка с `main.py`, който извежда вашето име, и `README.md` с едно изречение за проекта. Направете commit и го качете в GitHub.
+
+## Допълнителни ресурси
+
+- [Git Book: започване с Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+- [GitHub Docs: Hello World](https://docs.github.com/en/get-started/using-github/hello-world)

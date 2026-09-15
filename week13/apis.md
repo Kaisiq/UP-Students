@@ -26,3 +26,8 @@ except requests.RequestException as error:
 - `timeout` предпазва програмата от безкрайно чакане.
 
 Никога не записвайте API ключ в кода или GitHub. Пазете го в `.env`, добавете `.env` в `.gitignore` и четете стойността от environment variable.
+
+## Допълнителни ресурси
+
+- [Requests: quickstart](https://requests.readthedocs.io/en/latest/user/quickstart/)
+- [MDN: HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)

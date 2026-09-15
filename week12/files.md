@@ -40,3 +40,8 @@ with open("student.json", encoding="utf-8") as file:
 ```
 
 JSON е текстов формат за списъци, речници, числа, низове, `true`/`false` и `null`. При липсващ файл обработете `FileNotFoundError`.
+
+## Допълнителни ресурси
+
+- [Python Tutorial: вход и изход](https://docs.python.org/3/tutorial/inputoutput.html)
+- [Python документация за JSON](https://docs.python.org/3/library/json.html)

@@ -33,3 +33,8 @@ python -m pip freeze > requirements.txt
 ```
 
 Засега е достатъчно да знаете, че `.venv` е помощна папка на проекта. По-късно ще разгледаме как се работи с нея при споделяне на код и GitHub.
+
+## Допълнителни ресурси
+
+- [Терминалът в PyCharm](https://www.jetbrains.com/help/pycharm/terminal-emulator.html)
+- [Официално ръководство за виртуални среди и пакети](https://docs.python.org/3/tutorial/venv.html)
