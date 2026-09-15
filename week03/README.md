@@ -3,6 +3,8 @@
 ## Условни оператори - if, elif, else
 ### [Материали и примери за if/elif/else](https://github.com/Kaisiq/UP-Students/blob/main/week03/bool_if_else_code.md) <br>
 ### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week03/conditions_tasks.md)<br>
+### [Git и GitHub: първи стъпки](https://github.com/Kaisiq/UP-Students/blob/main/week03/git_github_basics.md)<br>
+### [Подход към решаването на задачи](https://github.com/Kaisiq/UP-Students/blob/main/week03/problem_solving.md)<br>
 
 ## Цикли - for, while
 ### [Код от упражнение за for/while цикли](https://github.com/Kaisiq/UP-Students/blob/main/week03/loops.md) <br>

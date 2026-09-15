@@ -9,3 +9,7 @@
 ### [Материали и код (Рекурсия и ламбда изрази)](https://github.com/Kaisiq/UP-Students/blob/main/week07/recursion.md)
 
 ### [Задачи за упражнение - Рекурсия](https://github.com/Kaisiq/UP-Students/blob/main/week07/recursion_tasks.md)
+
+## Инструменти за работа
+### [Проверка на код с assert и pytest](https://github.com/Kaisiq/UP-Students/blob/main/week07/testing.md)
+### [Git и GitHub: ежедневен работен процес](https://github.com/Kaisiq/UP-Students/blob/main/week07/git_github_workflow.md)

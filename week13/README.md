@@ -4,3 +4,4 @@
 ### [Материали - .csv file](https://github.com/Kaisiq/UP-Students/blob/main/week13/big_cities_health_data_inventory.csv)
 
 ### [Задача](https://github.com/Kaisiq/UP-Students/blob/main/week13/task.md)
+### [HTTP и API](https://github.com/Kaisiq/UP-Students/blob/main/week13/apis.md)

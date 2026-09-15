@@ -16,3 +16,4 @@
 ### [Седмица 12 - Библиотеки. Math и Decimal, Numpy](https://github.com/Kaisiq/UP-Students/tree/main/week12)
 ### [Седмица 13 - Библиотеки. Pandas](https://github.com/Kaisiq/UP-Students/tree/main/week13)
 ### [Седмица 14 - Контролно. Подготовка за изпит](https://github.com/Kaisiq/UP-Students/tree/main/week14)
+### [Финален проект](https://github.com/Kaisiq/UP-Students/tree/main/project)
