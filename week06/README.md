@@ -1,5 +1,18 @@
-# Седмица 6 - Функции:
-## Функции
-### [Материали и код (Functions)](https://github.com/Kaisiq/UP-Students/blob/main/week06/functions.md)
-### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week06/functions_tasks.md)<br>
-### [Стил, имена и docstrings](https://github.com/Kaisiq/UP-Students/blob/main/week06/code_style.md)<br>
+# Седмица 6 — Функции
+
+Функциите помагат да разделяме решение на малки, преизползваеми части с ясни вход и изход.
+
+## Материали
+
+- [Функции: материали и код](functions.md)
+- [Стил, имена и docstrings](code_style.md)
+
+## Задачи
+
+- [Задачи за упражнение](functions_tasks.md)
+
+## За по-задълбочено изучаване
+
+- [Python Tutorial: дефиниране на функции](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+- [PEP 8: стил на Python код](https://peps.python.org/pep-0008/)
+- [PEP 257: docstrings](https://peps.python.org/pep-0257/)

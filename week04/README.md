@@ -1,8 +1,19 @@
-# Седмица 4 - Съставни типове данни:
-## List / Списък
-### [Материали и код (List)](https://github.com/Kaisiq/UP-Students/blob/main/week04/list.md)
-### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week04/list_tasks.md)<br>
+# Седмица 4 — Съставни типове данни: списъци и редици
 
-## Tuple / Редица
-### [Материали и код (Tuple)](https://github.com/Kaisiq/UP-Students/blob/main/week04/tuple.md)
-### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week04/tuple_tasks.md)<br>
+Работете с подредени колекции, индексиране, обхождане и промяна на данни.
+
+## Материали
+
+- [Списъци (`list`)](list.md)
+- [Редиците (`tuple`)](tuple.md)
+
+## Задачи
+
+- [Задачи за списъци](list_tasks.md)
+- [Задачи за редици](tuple_tasks.md)
+
+## За по-задълбочено изучаване
+
+- [Python Tutorial: списъци](https://docs.python.org/3/tutorial/introduction.html#lists)
+- [Документация за списъци](https://docs.python.org/3/library/stdtypes.html#list)
+- [Документация за редици](https://docs.python.org/3/library/stdtypes.html#tuple)

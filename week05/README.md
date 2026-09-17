@@ -1,9 +1,19 @@
-# Седмица 5 - Съставни типове данни 2:
-## Set/ Множество
-### [Материали и код (Set)](https://github.com/Kaisiq/UP-Students/blob/main/week05/sets.md)
-### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week05/set_tasks.md)<br>
+# Седмица 5 — Съставни типове данни: множества и речници
 
+Използвайте множества за уникални стойности и речници за връзки между ключове и стойности.
 
-## Dictionary/ Речник
-### [Материали и код (Dictionary)](https://github.com/Kaisiq/UP-Students/blob/main/week05/dictionaries.md)
-### [Задачи за упражнение](https://github.com/Kaisiq/UP-Students/blob/main/week05/dictionary_tasks.md)<br>
+## Материали
+
+- [Множества (`set`)](sets.md)
+- [Речници (`dict`)](dictionaries.md)
+
+## Задачи
+
+- [Задачи за множества](set_tasks.md)
+- [Задачи за речници](dictionary_tasks.md)
+
+## За по-задълбочено изучаване
+
+- [Документация за множества](https://docs.python.org/3/library/stdtypes.html#set)
+- [Документация за речници](https://docs.python.org/3/library/stdtypes.html#dict)
+- [Python Tutorial: структури от данни](https://docs.python.org/3/tutorial/datastructures.html)

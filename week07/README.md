@@ -1,15 +1,21 @@
-# Седмица 7 - Функции, Ламбда изрази, Рекурсия:
-## Функции
-### [Материали и код (Functions)](https://github.com/Kaisiq/UP-Students/blob/main/week06/functions.md)
+# Седмица 7 — Функции, lambda изрази и рекурсия
 
-### [Задачи за упражнение - Функции](https://github.com/Kaisiq/UP-Students/blob/main/week07/functions_tasks.md)<br>
+Продължаваме с функции и разглеждаме рекурсивни решения, кратки `lambda` функции и базово тестване.
 
+## Материали
 
-## Рекурсия и ламбда изрази
-### [Материали и код (Рекурсия и ламбда изрази)](https://github.com/Kaisiq/UP-Students/blob/main/week07/recursion.md)
+- [Функции: материали и код](../week06/functions.md)
+- [Рекурсия и lambda изрази](recursion.md)
+- [Проверка на код с `assert` и pytest](testing.md)
+- [Git и GitHub: ежедневен работен процес](git_github_workflow.md)
 
-### [Задачи за упражнение - Рекурсия](https://github.com/Kaisiq/UP-Students/blob/main/week07/recursion_tasks.md)
+## Задачи
 
-## Инструменти за работа
-### [Проверка на код с assert и pytest](https://github.com/Kaisiq/UP-Students/blob/main/week07/testing.md)
-### [Git и GitHub: ежедневен работен процес](https://github.com/Kaisiq/UP-Students/blob/main/week07/git_github_workflow.md)
+- [Задачи за функции](functions_tasks.md)
+- [Задачи за рекурсия](recursion_tasks.md)
+
+## За по-задълбочено изучаване
+
+- [Python Tutorial: функции](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+- [Python Functional Programming HOWTO](https://docs.python.org/3/howto/functional.html)
+- [pytest: начало](https://docs.pytest.org/en/stable/getting-started.html)

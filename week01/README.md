@@ -1,5 +1,19 @@
-# Седмица 1 - Инсталация на Pycharm, запознаване със средата за програмиране:
-## [Инсталиране на PyCharm](https://github.com/Kaisiq/UP-Students/tree/main/week01/Акаунти,_активиране_на_лиценз_и_инсталация_на_PyCharm.pdf)
-## [Настройки на PyCharm](https://github.com/Kaisiq/UP-Students/tree/main/week01/Настройки_и_първи_стъпки_в_PyCharm_Pro.pdf)
-## [Материали - седмица 1](https://github.com/Kaisiq/UP-Students/blob/main/week01/week1_code.md)
-## [Работна среда: папки, терминал и пакети](https://github.com/Kaisiq/UP-Students/blob/main/week01/environment.md)
+# Седмица 1 — PyCharm и първи стъпки с Python
+
+Запознайте се с работната среда и с основите на писането и стартирането на Python програми.
+
+## Материали
+
+- [Инсталиране и активиране на PyCharm](Акаунти,_активиране_на_лиценз_и_инсталация_на_PyCharm.pdf)
+- [Настройки и първи стъпки в PyCharm](Настройки_и_първи_стъпки_в_PyCharm_Pro.pdf)
+- [Първи Python програми: променливи, вход и изход](week1_code.md)
+- [Работна среда: папки, терминал и пакети](environment.md)
+
+## Задачи
+
+В тази седмица няма отделен файл със задачи. Изпълнете примерите от материалите в собствен проект и променете входните им данни.
+
+## За по-задълбочено изучаване
+
+- [Python Tutorial: използване на интерпретатора](https://docs.python.org/3/tutorial/interpreter.html)
+- [PyCharm: създаване и стартиране на първи проект](https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html)
