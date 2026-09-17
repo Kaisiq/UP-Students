@@ -42,5 +42,9 @@ print(Decimal("1.1") + Decimal("2.2"))  # 3.3
 
 print(Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3'))  # 0.0
 ```
+## Следваща стъпка
+
+[Продължете с NumPy](numpy.md)
+
 ### Повече информация относно модула decimal можете да откриете тук:
 https://www.pythontutorial.net/advanced-python/python-decimal/

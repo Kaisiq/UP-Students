@@ -54,6 +54,10 @@ git push -u origin main
 
 Създайте папка с `main.py`, който извежда вашето име, и `README.md` с едно изречение за проекта. Направете commit и го качете в GitHub.
 
+## Следваща стъпка
+
+[Упражнете условни оператори](conditions_tasks.md) · [упражнете цикли](loops_tasks.md)
+
 ## Допълнителни ресурси
 
 - [Git Book: започване с Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)

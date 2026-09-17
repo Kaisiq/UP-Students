@@ -26,6 +26,10 @@ def average(numbers):
 
 Използвайте `print()` за бърза проверка, но breakpoint и debugger са по-подходящи, когато има много стъпки или извиквания на функции.
 
+## Следваща стъпка
+
+[Решете задачите за грешки и изключения](Errors_tasks.md)
+
 ## Допълнителни ресурси
 
 - [PyCharm: debugging на Python код](https://www.jetbrains.com/help/pycharm/part-1-debugging-python-code.html)

@@ -164,3 +164,7 @@ while(i < len(tuple)):
 Други методи с редици:<br>
 count()	Returns the number of times a specified value occurs in a tuple<br>
 index()	Searches the tuple for a specified value and returns the position of where it was found<br>
+
+## Следваща стъпка
+
+[Решете задачите за редици](tuple_tasks.md)

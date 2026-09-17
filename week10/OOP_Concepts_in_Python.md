@@ -155,7 +155,13 @@ sq1 = Square(4)
 print(sq1.area()) # 16
 print(sq1.perimeter()) # 16
 ```
+
+## Следваща стъпка
+
+[Решете задачите за `Vehicle` и `Objects3D`](tasks_Tuesday.md) · [за триъгълници](tasks_Thursday_Friday.md)
+
 ### Повече информация
+
 * https://www.freecodecamp.org/news/object-oriented-programming-in-python/amp/?fbclid=IwAR3xyVawmtjYYdsHnzJId9i2M9ox9HZkNX1ZoyTuXjNyAi9kuhfnTj-3STs
 * https://www.geeksforgeeks.org/python-oops-concepts/
 * https://www.mygreatlearning.com/blog/abstraction-in-python/

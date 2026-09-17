@@ -157,3 +157,22 @@ print(x)
 - symmetric_difference_update()	inserts the symmetric differences from this set and another
 - union()	Return a set containing the union of sets
 - update()	Update the set with the union of this set and others
+
+## Безопасно премахване при обхождане
+
+Не променяйте множество директно в цикъл, който го обхожда — Python ще върне `RuntimeError`. 
+
+Обхождайте копие или създайте ново множество:
+```py
+words = {"asd_test", "python", "my_asd_word"}
+
+for word in words.copy():
+    if "asd" in word:
+        words.remove(word)
+
+# Алтернатива: words = {word for word in words if "asd" not in word}
+```
+
+## Следваща стъпка
+
+[Решете задачите за множества](set_tasks.md) · [Продължете с речниците](dictionaries.md)

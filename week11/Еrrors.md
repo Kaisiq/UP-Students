@@ -194,3 +194,7 @@ finally:
 ```
 ### Видове изключения и описание
 <img width="736" alt="image" src="https://user-images.githubusercontent.com/114401128/209127777-c09dd1a9-71e6-450c-a410-87235d255124.png">
+
+## Следваща стъпка
+
+[Решете задачите за грешки и изключения](Errors_tasks.md) · [Научете debugging в PyCharm](debugging.md)

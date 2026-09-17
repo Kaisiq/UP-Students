@@ -43,17 +43,21 @@ e -> 1
 ## Задача 4
 
 Напишете функция, която сумира елементите на вложен списък.<br>
-Пример:<br>
-Вход: [1,2,[3,4],[[5],6]]<br>
-Изход: 21
+Пример:
+
+Вход: `[1,2,[3,4],[[5],6]]`
+
+Изход: `21`
+
 
 ## Задача 5
 
 Напишете рекурсивна функция, която намира най-големия общ делител на две цели числа.
 
+> Алгоритъм на Евклид: `gcd(a, b)` е `gcd(b, a % b)`, докато второто число стане 0. Тогава първото число е НОД.
 
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 ## Допълнителна задача
 
@@ -69,3 +73,7 @@ s = 2
 
 
 There are 4 prisoners, 6 pieces of candy and distribution starts at chair 2. The prisoners arrange themselves in seats numbered 1 to 4. Prisoners receive candy at positions 2,3,4,1,2,3. The prisoner to be warned sits in chair number 3.
+
+## Следваща стъпка
+
+[Върнете се към въведението в ООП](OOP_introduction.md) · [Продължете с ООП принципите](../week10/OOP_Concepts_in_Python.md)

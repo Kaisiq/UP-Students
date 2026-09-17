@@ -256,3 +256,20 @@ print(list1)
 - remove()	Removes the item with the specified value
 - reverse()	Reverses the order of the list
 - sort()	Sorts the list
+
+## Полезни вградени функции за числови списъци
+
+Тези функции не променят списъка, а само връщат резултат
+
+```py
+numbers = [4, 4, 1, 3]
+print(sum(numbers))        # 12
+print(min(numbers))        # 1
+print(max(numbers))        # 4
+print(numbers.count(4))    # 2
+```
+> При празен списък `sum([])` връща `0`, но `min([])` и `max([])` дават грешка. 
+
+## Следваща стъпка
+
+[Решете задачите за списъци](list_tasks.md) · [Продължете с редиците](tuple.md)

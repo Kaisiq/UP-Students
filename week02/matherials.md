@@ -40,6 +40,17 @@ print(D)   #<- case sensitive
 ```
 Това парче код обаче би било крашнало ако се опитаме да го run-нем. Това е защото променливата "D" не съществува в нашата програма, а ние се опитваме да я принтираме.
 
+### Проверка на тип на променлива
+
+Използвайме `type()`
+
+```py
+value = input("Въведете стойност: ")
+print(type(value))  # <class 'str'> — input() винаги връща string
+
+number = int(value)
+print(type(number))  # <class 'int'>
+```
 
 
 # Символни низове / String
@@ -261,6 +272,10 @@ txt = separator.join(myList)
 print(txt)
 ```
 
+
+## Следваща стъпка
+
+[Решете задачите за числа и символни низове](tasks.md)
 
 ## Бонус информация: 
 https://www.geeksforgeeks.org/python-string-methods/

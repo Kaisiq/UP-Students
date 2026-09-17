@@ -27,6 +27,10 @@ except requests.RequestException as error:
 
 Никога не записвайте API ключ в кода или GitHub. Пазете го в `.env`, добавете `.env` в `.gitignore` и четете стойността от environment variable.
 
+## Следваща стъпка
+
+[Продължете към подготовката за изпит](../week14/podgotovka_izpit.md)
+
 ## Допълнителни ресурси
 
 - [Requests: quickstart](https://requests.readthedocs.io/en/latest/user/quickstart/)

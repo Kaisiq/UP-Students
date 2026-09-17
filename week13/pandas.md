@@ -218,3 +218,7 @@ print(df.info())
 ### 4) повтарящи се данни - използване на `drop_duplicates(inplace=False)`
 
 #### добри примери можете да разгледате тук: https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_format.asp
+
+## Следваща стъпка
+
+[Решете задачата за Pandas и CSV](task.md) · [Научете основите на HTTP и API](apis.md)

@@ -70,3 +70,7 @@ list 1<br>
 we 2<br>
 also 1<br>
 Zen 1<br>
+
+## Следваща стъпка
+
+[Назад към материалите за речници](dictionaries.md) · [Продължете с функции](../week06/functions.md)

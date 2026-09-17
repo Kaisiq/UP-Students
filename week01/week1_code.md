@@ -117,3 +117,7 @@ print(type(x))  # str
 x = int(input("Enter anything"))
 print(type(x))  # int
 ```
+
+## Следваща стъпка
+
+[Продължете с работната среда: папки, терминал и пакети](environment.md)

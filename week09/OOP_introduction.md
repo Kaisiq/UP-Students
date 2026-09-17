@@ -173,4 +173,7 @@ class Person:
 
 print(Person.job_title("developers")) # All the persons here are developers.
 
+## Следваща стъпка
+
+[Решете задачата за клас `Student`](tasks.md) · [Преговорете чрез задачите за контролно](test_preparation.md)
 

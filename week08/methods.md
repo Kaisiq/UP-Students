@@ -144,3 +144,7 @@ print(f"first name: {first_name}\nlast name: {last_name} \nage: {age}")
 # last name: ('Schmoe', 'Ehlmann', 'Fischer', 'Walter', 'Rogan')
 # age: (23, 65, 11, 36, 83)
 ```
+
+## Следваща стъпка
+
+[Решете задачите за `map`, `filter` и `reduce`](tasks.md)

@@ -25,6 +25,10 @@ cd <име-на-папка>
 
 Използвайте кратки commits с една цел: `Add input validation`, `Fix CSV parsing`. Не правете commit на `.env`, `.venv/` или пароли.
 
+## Следваща стъпка
+
+[Продължете към `map`, `filter` и `reduce`](../week08/methods.md)
+
 ## Допълнителни ресурси
 
 - [Git Book: работа с remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)

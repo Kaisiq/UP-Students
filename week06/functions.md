@@ -185,3 +185,7 @@ def timesFive(x):
 
 print(timesFive(15)) # 75
 ```
+
+## Следваща стъпка
+
+[Решете задачите за упражнение](functions_tasks.md) · [Прочетете за стил, имена и docstrings](code_style.md)
